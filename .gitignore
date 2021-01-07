@@ -1,0 +1,12 @@
+# build sources
+dist
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+# package-lock.json (Need do pipeline)
+
+
+# lock npm version
+package-lock.json

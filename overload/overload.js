@@ -1,4 +1,4 @@
-const Issue = "如果在javascript 中定义了两个名字相同的函数，则名字属于后定义的函数";
+var Issue = "如果在javascript 中定义了两个名字相同的函数，则名字属于后定义的函数";
 console.log("Issue = " + Issue);
 function addSomeNumber (num) {
     return num + 100;   
@@ -9,7 +9,7 @@ function addSomeNumber (num){
 var result = addSomeNumber(100);//300
 console.log("result = " + result);
 
-const Try1 = "可以根据传递的参数不一样，实现模拟重载的功能";
+var Try1 = "可以根据传递的参数不一样，实现模拟重载的功能";
 console.log("Try1 = " + Try1);
 function sum(num) {
     if (typeof num === 'undefined') {
@@ -24,7 +24,7 @@ var b = sum();
 console.log("b = " + b);
 
 // This way needs to use 'alert' function which can be run in Browser context
-// const Try2 = "在Javascript 高级程序设计(第三版)中提到，通过检查函数中参数的类型和数量并作出不同的反应，可以模仿方法的重载";
+// var Try2 = "在Javascript 高级程序设计(第三版)中提到，通过检查函数中参数的类型和数量并作出不同的反应，可以模仿方法的重载";
 // console.log("Try2 = " + Try2);
 // function doAdd (){
 //     if(arguments.length === 1){
@@ -36,7 +36,7 @@ console.log("b = " + b);
 // doAdd(10);//20
 // doAdd(10,20);//30
 
-const Try3 = "在JQuery之父John Resig写的《secrets of the JavaScript ninja》找到了一个绝佳巧妙的方法！那种方法充分的利用了闭包的特性！"
+var Try3 = "在JQuery之父John Resig写的《secrets of the JavaScript ninja》找到了一个绝佳巧妙的方法！那种方法充分的利用了闭包的特性！"
 // addMethod函数，它接收3个参数，第一个为要绑定方法的对象，第二个为绑定的方法名称，第三个为需要绑定的方法（一个匿名函数）。函数体的的分析已经在注释里面了。
 console.log("Try3 = " + Try3);
 

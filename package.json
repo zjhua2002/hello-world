@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zjhua2002/hello-world/issues"
   },
-  "homepage": "https://github.com/zjhua2002/hello-world#readme"
+  "homepage": "https://github.com/zjhua2002/hello-world#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
